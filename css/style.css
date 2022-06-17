@@ -1,0 +1,16 @@
+
+
+/* font-family: 'Open Sans', sans-serif; */
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+.header {
+    display: flex;
+    width: 100%;
+    background-image: url(../images/bg.jpg);
+    height: 600px;
+}
