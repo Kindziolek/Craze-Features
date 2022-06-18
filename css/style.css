@@ -13,4 +13,119 @@
     width: 100%;
     background-image: url(../images/bg.jpg);
     height: 600px;
+    justify-content: center;
 }
+
+.container {
+    width: 930px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.wellcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+}
+
+
+.logo {
+    width: 200px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.wellcome_photo_content {
+    width: 435px;
+    height: 507px;
+    background-size: cover;
+}
+
+.wellcome_photo {
+    width: 435px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.wellcome_text {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 24px;
+}
+
+.section_content {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main_content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.headline_main {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: #232323;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.text_main {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #838383;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.box_container {
+    display: flex;
+}
+
+.headline_box {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    color: #232323;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.text_box {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #838383;
+    text-align: center;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.box_container {
+    justify-content: space-around;
+}
+
+
+.border_box {
+    border-left: 2px solid lightgray;
+    border-right: 2px solid lightgray;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+/* .box_content {
+    display: flex;
+} */
